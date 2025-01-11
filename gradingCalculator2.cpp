@@ -26,7 +26,7 @@ int main() {
     cout<<assignments / 100 * gradedAssignments<<"%"<<"in Assignments"<<endl;
     cout<<exams / 100 * gradedExams<<"%"<<"in Exams"<<endl;
     cout<<quizzes / 100 * gradedQuizzes<<"%"<<"in Quizzes"<<endl;
-    cout<<final / 100 * gradedFinal<<"%"<<"in Final Exam"<<endl
+    cout<<final / 100 * gradedFinal<<"%"<<"in Final Exam"<<endl;
 
 
 
