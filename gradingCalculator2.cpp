@@ -6,7 +6,7 @@ int main() {
     int exams = 50;
     int quizzes = 5;
     int final = 25;
-    int gradedAssignments, gradedExams, gradedQuizzes, gradedFinal, finalGrade;
+    float gradedAssignments, gradedExams, gradedQuizzes, gradedFinal, finalGrade;
 
     cout<<"The weight of each section: "<<endl;
     cout<<"Assignment: "<< assignments <<"%"<<endl;
@@ -16,17 +16,19 @@ int main() {
 
     cout<<"What is the graded percentage for the Assignments section?"<<endl;
     cin>>gradedAssignments;
-    cout<<"What is the graded percentage for the Exams section?"<<endl;
-    cin>>gradedExams;
-    cout<<"What is the graded percentage for the Quizzes section?"<<endl;
-    cin>>gradedQuizzes;
-    cout<<"What is the graded percentage for the Final Exam section?"<<endl;
-    cin>>gradedFinal;
+    //cout<<"What is the graded percentage for the Exams section?"<<endl;
+    ///cin>>gradedExams;
+    //cout<<"What is the graded percentage for the Quizzes section?"<<endl;
+    //cin>>gradedQuizzes;
+    //cout<<"What is the graded percentage for the Final Exam section?"<<endl;
+    //cin>>gradedFinal;
 
-    cout<<assignments / 100 * gradedAssignments<<"%"<<"in Assignments"<<endl;
-    cout<<exams / 100 * gradedExams<<"%"<<"in Exams"<<endl;
-    cout<<quizzes / 100 * gradedQuizzes<<"%"<<"in Quizzes"<<endl;
-    cout<<final / 100 * gradedFinal<<"%"<<"in Final Exam"<<endl;
+    float percentAssignment = assignments / 100 * gradedAssignments;
+
+    cout<<percentAssignment<<" %"<<" in Assignments"<<endl;
+    //cout<<exams / 100 * gradedExams<<" %"<<" in Exams"<<endl;
+    //cout<<quizzes / 100 * gradedQuizzes<<" %"<<" in Quizzes"<<endl;
+    //cout<<final / 100 * gradedFinal<<" %"<<" in Final Exam"<<endl;
 
 
 
