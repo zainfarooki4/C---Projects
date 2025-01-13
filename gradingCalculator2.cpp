@@ -28,10 +28,10 @@ int main() {
     float percentQuizzes = quizzes / 100.0 * gradedQuizzes;
     float percentFinal = final / 100.0 * gradedFinal;
 
-    cout<<percentAssignment<<" %"<<" in Assignments"<<endl;
-    cout<<percentExams<<" %"<<" in Exams"<<endl;
-    cout<<percentQuizzes<<" %"<<" in Quizzes"<<endl;
-    cout<<percentFinal<<" %"<<" in Final Exam"<<endl;
+    cout<<percentAssignment<<"%"<<" in Assignments"<<endl;
+    cout<<percentExams<<"%"<<" in Exams"<<endl;
+    cout<<percentQuizzes<<"%"<<" in Quizzes"<<endl;
+    cout<<percentFinal<<"%"<<" in Final Exam"<<endl;
 
     finalGrade = percentAssignment + percentExams + percentQuizzes + percentFinal;
     cout<<"Final Grade: "<<finalGrade<<"%"<<endl;
