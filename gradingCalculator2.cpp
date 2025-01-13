@@ -36,6 +36,16 @@ int main() {
     finalGrade = percentAssignment + percentExams + percentQuizzes + percentFinal;
     cout<<"Final Grade: "<<finalGrade<<"%"<<endl;
 
+    if (finalGrade >= 90.0) {
+        cout<<"Final Letter Grade: "<<"A"<<endl;
+    } else if (finalGrade >= 80.0 && finalGrade < 90.0) {
+        cout<<"Final Letter Grade: "<<"B"<<endl;
+    } else if (finalGrade >= 70.0 && finalGrade < 80.0) {
+        cout<<"Final Letter Grade: "<<"C"<<endl;
+    } else {
+        cout<<"Final Letter Grade: "<<"F"<<endl;
+    }
+
 
 
 
