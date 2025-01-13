@@ -17,18 +17,21 @@ int main() {
     cout<<"What is the graded percentage for the Assignments section?"<<endl;
     cin>>gradedAssignments;
     cout<<"What is the graded percentage for the Exams section?"<<endl;
-    //cin>>gradedExams;
-    //cout<<"What is the graded percentage for the Quizzes section?"<<endl;
-    //cin>>gradedQuizzes;
-    //cout<<"What is the graded percentage for the Final Exam section?"<<endl;
-    //cin>>gradedFinal;
+    cin>>gradedExams;
+    cout<<"What is the graded percentage for the Quizzes section?"<<endl;
+    cin>>gradedQuizzes;
+    cout<<"What is the graded percentage for the Final Exam section?"<<endl;
+    cin>>gradedFinal;
 
     float percentAssignment = assignments / 100.0 * gradedAssignments;
+    float percentExams = exams / 100.0 * gradedExams;
+    float percentQuizzes = quizzes / 100.0 * gradedQuizzes;
+    float percentFinal = final / 100.0 * gradedFinal;
 
     cout<<percentAssignment<<" %"<<" in Assignments"<<endl;
-    //cout<<exams / 100 * gradedExams<<" %"<<" in Exams"<<endl;
-    //cout<<quizzes / 100 * gradedQuizzes<<" %"<<" in Quizzes"<<endl;
-    //cout<<final / 100 * gradedFinal<<" %"<<" in Final Exam"<<endl;
+    cout<<exams / 100 * gradedExams<<" %"<<" in Exams"<<endl;
+    cout<<quizzes / 100 * gradedQuizzes<<" %"<<" in Quizzes"<<endl;
+    cout<<final / 100 * gradedFinal<<" %"<<" in Final Exam"<<endl;
 
 
 
