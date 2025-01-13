@@ -33,7 +33,7 @@ int main() {
     cout<<percentQuizzes<<" %"<<" in Quizzes"<<endl;
     cout<<percentFinal<<" %"<<" in Final Exam"<<endl;
 
-    float finalGrade = percentAssignment + percentExams + percentQuizzes + percentFinal;
+    finalGrade = percentAssignment + percentExams + percentQuizzes + percentFinal;
     cout<<"Final Grade: "<<finalGrade<<"%"<<endl;
 
 
