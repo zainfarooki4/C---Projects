@@ -5,7 +5,7 @@ int main() {
     int assignments = 15;
     int exams = 50;
     int quizzes = 5;
-    int final = 25;
+    int final = 30;
     float gradedAssignments, gradedExams, gradedQuizzes, gradedFinal, finalGrade;
 
     cout<<"The weight of each section: "<<endl;
@@ -31,7 +31,7 @@ int main() {
     cout<<percentAssignment<<" %"<<" in Assignments"<<endl;
     cout<<percentExams<<" %"<<" in Exams"<<endl;
     cout<<percentQuizzes<<" %"<<" in Quizzes"<<endl;
-    cout<<percentFinal]<<" %"<<" in Final Exam"<<endl;
+    cout<<percentFinal<<" %"<<" in Final Exam"<<endl;
 
 
 
